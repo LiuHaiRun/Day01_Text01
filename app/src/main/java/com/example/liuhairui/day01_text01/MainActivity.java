@@ -1,5 +1,6 @@
 package com.example.liuhairui.day01_text01;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -30,6 +31,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             default:
                 break;
             case R.id.btn:
+                Intent intent = new Intent(this, Main2Activity.class);
+                startActivity(intent);
                 break;
         }
     }
