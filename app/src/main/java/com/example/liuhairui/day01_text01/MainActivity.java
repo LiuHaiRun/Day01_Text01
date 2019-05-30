@@ -14,10 +14,8 @@ import com.example.liuhairui.day01_text01.api.IMyService;
 import com.example.liuhairui.day01_text01.bean.ResultsBean;
 import com.example.liuhairui.day01_text01.bean.WelfareData;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
